@@ -1,0 +1,41 @@
+@font-face {
+  font-family: EnFont;
+  src: local("Times New Roman");
+  unicode-range: U+0020-007F;
+}
+
+@font-face {
+  font-family: CnFont;
+  src: local("PMingLiu");
+  unicode-range: U+4E00-9FFF, U+FF00-FFEF; /* 汉字+全角符号 */
+}
+
+body {
+    background-image:url("../image/ayanami_rei_2.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position:bottom;
+    font-family: EnFont, CnFont, sans-serif;
+    color: white;
+    font-size: large;
+}
+
+h1 {
+  color:white2;
+}
+
+.institute:link{
+  filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white) drop-shadow(0 0 15px white);
+  color: #800DB3;
+}
+.institute:hover{
+  color: #B6613F
+}
+.institute:active{
+  color: red
+}
+
+th, td {
+  padding: 10px
+}
