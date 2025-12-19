@@ -1,1 +1,1 @@
-Here is Andy Lau's personal website.
+Here is Andy Lau's homepage.
